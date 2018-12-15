@@ -1,0 +1,12 @@
+{
+  "name": "@desco/format-size-file",
+  "version": "1.0.2",
+  "description": "Convert file sizes",
+  "author": "Rafael A. R. Dias <contato@diasrafael.com.br>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://eudiasrafael@bitbucket.org/eudiasrafael/desc-format-size-file.git"
+  },
+  "private": false,
+  "license": "ISC"
+}
