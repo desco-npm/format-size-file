@@ -1,11 +1,11 @@
 {
   "name": "format-size-file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Vue.js project",
   "author": "Rafael A. R. Dias <contato@diasrafael.com.br>",
   "repository": {
     "type": "git",
-    "url": "git+https://eudiasrafael@bitbucket.org/eudiasrafael/desc-format-size-file.git"
+    "url": "git+https://github.com/desco-npm/format-size-file"
   },
   "private": true,
   "scripts": {
