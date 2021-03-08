@@ -1,6 +1,6 @@
 <div align="right">
-  <a href="README.US.md">
-    <img alt="Read in American English" src="https://img.shields.io/static/v1?label=&message=🇺🇸 Read in American English&color=red&style=for-the-badge" />
+  <a href="README.md">
+    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=🇧🇷 Ler em Português do Brasil&color=green&style=for-the-badge" />
   </a>
 </div>
 
@@ -9,48 +9,48 @@
     <td><img src="https://i.ibb.co/m8M2f94/format-size-file.png"></td>
     <td>  
       <h1>@desco/format-size-file</h1>
-      Converte tamanho de arquivos de um tipo de medida para outro.
+      Converts file sizes from one measurement type to another.
       <br /><br />
       <div align="center">
-        <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licença&message=MIT&color=green&style=for-the-badge">
-        <img alt="Versão 1.0.4" src="https://img.shields.io/static/v1?label=Versão&message=1.0.4&color=blue&style=for-the-badge">
+        <img alt="MIT License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge">
+        <img alt="Version 1.0.4" src="https://img.shields.io/static/v1?label=Version&message=1.0.4&color=blue&style=for-the-badge">
       </div>
       <h4 align="center"> 
-        🚀 Pronto para uso! 🚀
+        🚀 Ready to use! 🚀
       </h4>
     </td>
   </tr>
 </table>
 
-> <a href="https://github.com/desco-npm" target="_blank">Veja outros projetos NPM aqui.</a>
+> <a href="https://github.com/desco-npm" target="_blank">See other NPM projects here.</a>
 
-> <a href="https://github.com/descoifica" target="_blank">Veja outros projetos aqui.</a>
-
----
-
-## 📋 Tabela de conteúdos
-
-* [⚙️ Instalação](#Instalação)
-* [📦 Importação](#Importação)
-* [📚 Como Usar](#Como-Usar)
+> <a href="https://github.com/descoifica" target="_blank">See other projects here.</a>
 
 ---
 
-<a name="Instalação"></a>
+## 📋 Table of Contents
 
-## ⚙️ Instalação
+* [⚙️ Installation](#Installation)
+* [📦 Import](#Import)
+* [📚 How to use](#How-to-use)
+
+---
+
+<a name="Installation"></a>
+
+## ⚙️ Installation
 
 ```bash
 npm install --save @desco/format-size-file
 ```
 
-> Note que será necessário ter o **NPM** instalado para o comando funcionar.
+> Note that it will be necessary to have **NPM** installed for the command to work.
 
 ---
 
-<a name="Importação"></a>
+<a name="Import"></a>
 
-## 📦 Importação
+## 📦 Import
 
 ### Node
 
@@ -66,9 +66,9 @@ import formatSizeFile from '@desco/format-size-file
 
 ---
 
-<a name="Como-Usar"></a>
+<a name="How-To-Use"></a>
 
-## 📚 Como Usar
+## 📚 How to use
 
 ```js
 const size = 1
@@ -76,17 +76,17 @@ const size = 1
 console.log(formatSizeFile(size, 'mb', 'gb') // 1024
 ```
 
-### Parâmetros
+### Parameters
 
-| Nome | Tipo | Padrão | Descrição |
+| Name | Type | Standard | Description |
 |---|---|---|---
-| size | Number | - | Tamanho original |
-| to | String | - | Para qual unidade de medida converter |
-| of | String | 'b' | A partir de qual unidade de medida converter |
+| size | Number | - | Original size |
+| to | String | - | Which unit of measure to convert to |
+| of | String | 'b' | From which unit of measure to convert |
 
-#### Unidades de Medida
+#### Units of Measure
 
-As seguintes unidades de medida são aceitas pelos parâmetros `to` e `of`:
+The following units of measure are accepted by the `to` and` of` parameters:
 
 * **b** - Bytes
 * **kb** KBytes
@@ -96,7 +96,7 @@ As seguintes unidades de medida são aceitas pelos parâmetros `to` e `of`:
 
 ---
 
-## Autor
+## Author
 
 <table>
   <tr>

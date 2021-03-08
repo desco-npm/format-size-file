@@ -1,13 +1,12 @@
 {
-  "name": "format-size-file",
-  "version": "1.0.1",
-  "description": "A Vue.js project",
-  "author": "Rafael A. R. Dias <contato@diasrafael.com.br>",
+  "name": "@desco/format-size-file",
+  "version": "1.0.4",
+  "description": "Converts file sizes from one measurement type to another.",
+  "author": "Rafael A. R. Dias <eu@diasrafael.com.br>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/desco-npm/format-size-file"
   },
-  "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
@@ -15,7 +14,6 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "@desco/format-size-file": "^1.0.1",
     "vue": "^2.5.2"
   },
   "devDependencies": {
