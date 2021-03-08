@@ -61,7 +61,7 @@ const formatSizeFile = require('@desco/format-size-file')
 ### Browse
 
 ```js
-import formatSizeFile from '@desco/format-size-file
+import formatSizeFile from '@desco/format-size-file'
 ```
 
 ---

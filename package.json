@@ -1,6 +1,6 @@
 {
   "name": "@desco/format-size-file",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Converts file sizes from one measurement type to another.",
   "author": "Rafael A. R. Dias <eu@diasrafael.com.br>",
   "repository": {
