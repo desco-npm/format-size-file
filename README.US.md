@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.md">
-    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=🇧🇷 Ler em Português do Brasil&color=green&style=for-the-badge" />
+    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=Ler+em+Portugu%C3%AAs+do+Brasil&color=green&style=for-the-badge" />
   </a>
 </div>
 
@@ -30,9 +30,9 @@
 
 ## 📋 Table of Contents
 
-* [⚙️ Installation](#Installation)
-* [📦 Import](#Import)
-* [📚 How to use](#How-to-use)
+- [⚙️ Installation](#Installation)
+- [📦 Import](#Import)
+- [📚 How to use](#How-to-use)
 
 ---
 
@@ -55,13 +55,13 @@ npm install --save @desco/format-size-file
 ### Node
 
 ```js
-const formatSizeFile = require('@desco/format-size-file')
+const formatSizeFile = require("@desco/format-size-file");
 ```
 
 ### Browse
 
 ```js
-import formatSizeFile from '@desco/format-size-file'
+import formatSizeFile from "@desco/format-size-file";
 ```
 
 ---
@@ -78,21 +78,21 @@ console.log(formatSizeFile(size, 'mb', 'gb') // 1024
 
 ### Parameters
 
-| Name | Type | Standard | Description |
-|---|---|---|---
-| size | Number | - | Original size |
-| to | String | - | Which unit of measure to convert to |
-| of | String | 'b' | From which unit of measure to convert |
+| Name | Type   | Standard | Description                           |
+| ---- | ------ | -------- | ------------------------------------- |
+| size | Number | -        | Original size                         |
+| to   | String | -        | Which unit of measure to convert to   |
+| of   | String | 'b'      | From which unit of measure to convert |
 
 #### Units of Measure
 
 The following units of measure are accepted by the `to` and` of` parameters:
 
-* **b** - Bytes
-* **kb** KBytes
-* **mb** - MegaBytes
-* **gb** - GigaBytes
-* **tb** - TeraBytes
+- **b** - Bytes
+- **kb** KBytes
+- **mb** - MegaBytes
+- **gb** - GigaBytes
+- **tb** - TeraBytes
 
 ---
 
@@ -115,10 +115,10 @@ The following units of measure are accepted by the `to` and` of` parameters:
         <img alt="Facebook @eudiasrafael" src="https://img.shields.io/static/v1?label=Facebook&message=@eudiasrafael&color=blue&logo=facebook&style=for-the-badge">
       </a>
       <a href="https://github.com/descodifica" target="_blank">
-        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub+Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://github.com/desco-npm" target="_blank">
-        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub+NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://www.npmjs.com/org/desco" target="_blank">
         <img alt="NPM @desco" src="https://img.shields.io/static/v1?label=NPM&message=@desco&color=red&logo=npm&style=for-the-badge">
